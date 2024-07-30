@@ -48,3 +48,11 @@ ul {
     max-width: 200px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-source {
+    text-align: right;
+}
+
