@@ -1,6 +1,9 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+}
+
+.header {
+    background-color: #1F2937;
     display: flex;
-    flex-direction: column;
-    flex: 2;
 }
