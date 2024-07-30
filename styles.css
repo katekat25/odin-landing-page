@@ -22,3 +22,9 @@ ul {
     list-style-type: none;
     gap: 16px;
 }
+
+.title-card {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
