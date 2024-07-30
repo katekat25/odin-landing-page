@@ -1,14 +1,18 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 body > * {
-    padding: 0px 100px;
+    padding: 0px 200px;
 }
 
 .header {
     background-color: #1F2937;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +20,6 @@ body > * {
 
 .header-logo {
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 ul {
@@ -27,8 +30,18 @@ ul {
 
 .title-card {
     background-color: #1F2937;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+    padding: 6px 24px;
+    color: white;
+    cursor: pointer;
 }
 
 .info {
@@ -49,10 +62,24 @@ ul {
 }
 
 .quote {
+    display: flex;
     background-color: #E5E7EB;
 }
 
 .quote-source {
     text-align: right;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+}
+
+.call-to-action button {
+    border: 1px solid white;
+}
+
+.footer {
+    display: flex;
 }
 
