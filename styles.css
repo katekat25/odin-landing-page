@@ -31,4 +31,9 @@ ul {
 
 .information {
     display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
 }
