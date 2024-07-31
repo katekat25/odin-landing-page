@@ -13,7 +13,7 @@ body {
 }
 
 .card > img {
-    width: 100px;
+    width: 150px;
 }
 
 body > div {
@@ -22,6 +22,10 @@ body > div {
 
 .content > div {
     border: 1px solid green;
+}
+
+.information div {
+    border: 1px solid magenta;
 }
 
 .card-container > div {
@@ -60,5 +64,13 @@ ul {
 
 .card-container {
     display: flex;
-    gap: 16px;
+    gap: 36px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
 }
