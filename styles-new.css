@@ -5,11 +5,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 200px;
 }
 
 .main > img {
-    width: 300px;
+    height: 300px;
 }
 
 .card > img {
@@ -18,10 +17,12 @@ body {
 
 body > div {
     border: 1px solid red;
+    padding: 0 200px;
 }
 
 .content > div {
     border: 1px solid green;
+    flex-grow: 1;
 }
 
 .information div {
@@ -36,7 +37,6 @@ body > div {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    justify-content: space-around;
 }
 
 .header {
@@ -54,6 +54,7 @@ ul {
 .main {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .main-left {
@@ -61,23 +62,22 @@ ul {
     flex-basis: 50%;
     flex-direction: column;
     justify-content: space-between;
-    padding-right: 75px;
+    border: 1px solid red;
 }
 
 .information {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 100px;
+    justify-content: center;
 }
 
 .information-title {
-    padding: 16px;
 }
 
 .card-container {
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;
 }
 
@@ -90,7 +90,8 @@ ul {
 }
 
 .quote {
-    padding: 0 100px;
+    width: 80%;
+    align-self: center;
 }
 
 .quote-source {
@@ -101,7 +102,6 @@ ul {
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
-    padding: 32px 100px;
 }
 
 .footer {
