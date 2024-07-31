@@ -5,7 +5,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 300px;
+}
+
+img {
+    width: 300px;
 }
 
 body > div {
@@ -27,3 +31,16 @@ ul {
     display: flex;
     gap: 8px;
 }
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
