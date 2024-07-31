@@ -74,3 +74,13 @@ ul {
     text-align: center;
     width: 150px;
 }
+
+.quote-source {
+    text-align: right;
+}
+
+.cta {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+}
