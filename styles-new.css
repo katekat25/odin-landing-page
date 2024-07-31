@@ -13,6 +13,8 @@ body {
 
 .card > img {
     width: 150px;
+    border-radius: 10%;
+    border: 2px solid #3882F6;
 }
 
 /*Colored borders for planning -- delete later*/
@@ -39,6 +41,8 @@ body > div {
 .header,
 .footer {
     padding: 0 200px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .content {
@@ -53,10 +57,19 @@ body > div {
     justify-content: space-between;
 }
 
+.header-logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header-links {
+    font-size: 18px;
+}
+
 ul {
     list-style: none;
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
 .main {
@@ -64,6 +77,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
+    background-color: #1F2937;
 }
 
 .main-left {
@@ -74,16 +88,33 @@ ul {
     margin-right: 50px;
 }
 
+.main-title-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.main-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 8px;
+}
+
 .information {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .card-container {
     display: flex;
-    width: 60%;
+    width: 60vw;
     justify-content: space-between;
 }
 
@@ -93,32 +124,64 @@ ul {
     align-items: center;
     text-align: center;
     width: 150px;
+    font-size: 18px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 200px;
-    padding: 0 50px;
+    padding: 0 250px;
+    background-color: #E5E7EB;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .quote-source {
     text-align: right;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .cta {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
-    padding: 0 50px;
+    margin: 50px 200px;
+    padding: 0 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cta-body {
+    font-size: 18px;
 }
 
 .footer {
     text-align: center;
+    padding: 20px 0;
+    font-weight: 300;
 }
 
 button {
     width: 100px;
+    height: 25px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+}
+
+.cta button {
+    border: 1px solid #F9FAF8;
 }
