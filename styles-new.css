@@ -17,26 +17,9 @@ body {
     border: 2px solid #3882F6;
 }
 
-/*Colored borders for planning -- delete later*/
-
-body > div {
-    border: 1px solid red;
-}
-
 .content > div {
-    border: 1px solid green;
     flex-grow: 1;
 }
-
-.information div {
-    border: 1px solid magenta;
-}
-
-.card-container > div {
-    border: 1px solid blue;
-}
-
-/*End borders*/
 
 .header,
 .footer {
