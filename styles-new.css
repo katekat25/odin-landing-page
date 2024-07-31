@@ -15,13 +15,10 @@ body {
     width: 150px;
 }
 
+/*Colored borders for planning -- delete later*/
+
 body > div {
     border: 1px solid red;
-}
-
-.header,
-.footer {
-    padding: 0 200px;
 }
 
 .content > div {
@@ -35,6 +32,13 @@ body > div {
 
 .card-container > div {
     border: 1px solid blue;
+}
+
+/*End borders*/
+
+.header,
+.footer {
+    padding: 0 200px;
 }
 
 .content {
@@ -68,7 +72,6 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     margin-right: 50px;
-    border: 1px solid red;
 }
 
 .information {
@@ -78,12 +81,9 @@ ul {
     justify-content: center;
 }
 
-.information-title {
-}
-
 .card-container {
     display: flex;
-    width: 80%;
+    width: 60%;
     justify-content: space-between;
 }
 
@@ -108,7 +108,6 @@ ul {
 }
 
 .cta {
-    background-color: lightblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
