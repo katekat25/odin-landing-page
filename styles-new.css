@@ -95,8 +95,11 @@ ul {
 }
 
 .quote {
-    width: 80%;
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 200px;
+    padding: 0 50px;
 }
 
 .quote-source {
@@ -107,7 +110,9 @@ ul {
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
-    padding: 0 200px;
+    align-items: center;
+    margin: 0 200px;
+    padding: 0 50px;
 }
 
 .footer {
