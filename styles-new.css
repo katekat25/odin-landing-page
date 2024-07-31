@@ -17,6 +17,10 @@ body {
 
 body > div {
     border: 1px solid red;
+}
+
+.header,
+.footer {
     padding: 0 200px;
 }
 
@@ -55,6 +59,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 200px;
 }
 
 .main-left {
@@ -102,6 +107,7 @@ ul {
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
+    padding: 0 200px;
 }
 
 .footer {
