@@ -1,11 +1,11 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 300px;
+    padding: 0 200px;
 }
 
 .main > img {
@@ -61,17 +61,24 @@ ul {
     flex-basis: 50%;
     flex-direction: column;
     justify-content: space-between;
+    padding-right: 75px;
 }
 
 .information {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 100px;
+}
+
+.information-title {
+    padding: 16px;
 }
 
 .card-container {
     display: flex;
-    gap: 36px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .card {
@@ -82,6 +89,10 @@ ul {
     width: 150px;
 }
 
+.quote {
+    padding: 0 100px;
+}
+
 .quote-source {
     text-align: right;
 }
@@ -89,7 +100,8 @@ ul {
 .cta {
     background-color: lightblue;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 32px 100px;
 }
 
 .footer {
