@@ -1,5 +1,10 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
 }
 
 body > div {
@@ -8,4 +13,16 @@ body > div {
 
 .body > div {
     border: 1px solid green;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
 }
